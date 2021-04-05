@@ -1,0 +1,227 @@
+/* How to Link Image
+	background: url("../Website/img/beta2.png");
+*/
+li{
+	display:inline;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #20A020;
+  background-color: transparent;
+  text-decoration: none;
+}
+.bold {
+	font-size: 120%;
+	font-weight: bold;
+	float: center;
+	margin:auto;
+	padding:70px;
+	list-style-type: none;
+}
+body {
+	background: url("../Website/img/bg.jpg");
+}
+#content {
+	background-color: white;
+	width:60%;
+	text-align: center;
+	margin: auto;
+}
+#header {
+	background: rgba(0,0,0,.5);
+	border-style: dashed;
+	border-color: black;
+	border-width: 2px;
+	width: 30%;
+	color: orange;
+	padding: 1px;
+	margin: auto;
+	text-align: center;
+	text-shadow: 2px 3px black;
+	font-family: "Ebrima", "Arial", sans-serif;
+	font-size: 20px;
+}
+#main {
+	text-align: center;
+	font-size: 20px;
+}
+#main2 {
+	background: rgba(255,255,255,.3);
+	text-align:center;
+	font-family: "Ebrima", "Arial", sans-serif;
+	width:70%;
+	margin:auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+.homegif{
+	padding:0px 20px 0px 0px;
+}
+.homegif li{
+	padding:0px 50px 0px;
+}
+.homedesc {
+	padding: 0px 90px 0px;
+}
+.homedesc li {
+	padding: 0px 60px 0px;
+}
+#char {
+	background: rgba(255,255,255,.5);
+	text-align:left;
+	font-family: "Ebrima", "Arial", sans-serif;
+	width:70%;
+	margin:auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+.charlist{
+	padding: 10px 0px 0px 50px;
+}
+.charlore{
+	display:table;
+	content: "";
+	clear:both;
+	padding: 0px 0px 0px 200px;
+	font-size:1.25em;
+	position: absolute;
+}
+.chardesc{
+	padding: 0px 0px 0px 6%;
+	font-weight:bold;
+}
+#footer {
+	text-align: bottom;
+	text-align: center;
+	font-size:15px;
+}
+#gallery {
+	background: rgba(255,255,255,.3);
+	text-align:center;
+	width:70%;
+	margin:auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	
+}
+.gallerytable {
+	padding:5px 44px 0px;
+	text-align:center;
+	margin:auto;
+}
+.gallerytable li {
+	padding:0px 10px 0px;
+	text-align:center;
+	margin:auto;
+}
+.gallerytable td {
+	padding:0px 40px 0px;
+	text-align:center;
+	margin:auto;
+}
+#contacts {
+	margin:auto;
+}
+#padding_c {
+	padding: 0px 100px 0px 100px;
+	display: inline;
+}
+#padding_c2 {
+	padding: 0px 70px 0px 70px;
+	display: inline;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+#zahutxt {
+	left:-15px;
+	position:relative;
+}
+@media only screen and (max-width: 780px) {
+	#container {
+		max-width:100%;
+		overflow-x:hidden;
+	}
+	#main2 {
+		width:100%;
+		max-width:100%;
+	}
+	#gallery {
+		width:100%;
+	}
+	.homegif li{
+		padding:0px 0px 0px 20px;
+	}
+	.homedesc {
+		display:none;
+	}
+	.gallerytable tr {
+		display:none;
+	}
+	#header {
+		width:70%;
+		font-size:15px;
+	}
+	.bold {
+		font-size: 85%;
+		font-weight: bold;
+		padding:0px 15px 0px;
+		margin-right:20px;
+	}
+	#char {
+		width:90%;
+		height:100%;
+	}
+	img[src^="img/riki"] {
+		top:-134px;
+	}
+	img[src^="img/micca"] {
+		top:-244px;
+	}
+	.charlore  {
+		font-size:80%;
+		margin:0;
+		padding:4px 5px 30px;
+		top:90px;
+		position:relative;
+	}
+	.charlore br {
+		content: "";
+	}
+	.chardesc {
+		display:none;
+	}
+	.charlist{
+		transform: scale(0.75);
+		position:relative;
+		left:25%;
+		top:-200px;
+		padding:0;
+	}
+	#padding_c {
+	padding: 0px 10px 0px 10px;
+	display: inline;
+}
+	#padding_c2 {
+		width:100%;
+		font-size:12px;
+		padding: 4px;
+	}
+	#contacts img {
+		transform: scale(0.75);
+		padding:5px;
+	}
+}
